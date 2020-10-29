@@ -1,0 +1,65 @@
+@font-face {
+  font-family: bebaskai;
+  src: url(../fonts/BebasKai.otf);
+}
+@font-face {
+  font-family: proximasemibold;
+  src: url(../fonts/Proxima-Nova-Semibold.ttf);
+}
+@font-face {
+  font-family: proximalight;
+  src: url(../fonts/ProximaNova-Light.otf);
+}
+
+body{
+background-image: url("../images/csgoback.png");
+margin: 0px;
+padding: 0px;
+}
+.g-recaptcha{
+	margin-left:60px;
+	margin-top:10px;
+}
+.container {
+margin: auto;
+margin-top: 150px;
+border-radius: 8px;
+width: 440px;
+height: 380px;
+background-color: #202020;
+opacity: 0.9;
+}
+
+.container h3{
+  padding-top:5px;
+  font-family: bebaskai;
+  color: white;
+  text-align: center;
+  margin-bottom: 3px;
+}
+.baslik{
+  width: 350px;
+  font-size: 20px;
+  float: left;
+  color: white;
+  font-family: bebaskai;
+  margin-left: 50px;
+}
+.baslik label{
+  margin-right: 20px;
+  padding-bottom: 1px;
+  float: left;
+}
+
+input{
+float: left;
+margin-top: 2px;
+width: 100%;
+font-family: proximalight;
+}
+.kayitbuton{
+  float: left;
+  margin-left: 170px;
+  border: 0px;
+  font-family: bebaskai;
+}

@@ -1,0 +1,282 @@
+@font-face{font-family:bebaskai;src:url(../fonts/BebasKai.otf);}
+@font-face{font-family:proximasemibold;src:url(../fonts/Proxima-Nova-Semibold.ttf);}
+@font-face{font-family:proximalight;src:url(../fonts/ProximaNova-Light.otf);}
+@font-face{font-family:proximaregular;src:url(../fonts/proxima-nova-regular.ttf);}
+@font-face{font-family:proximanovabold;src:url(../fonts/Proxima-Nova-Bold.otf);}
+@font-face{font-family:proximaextrabold;src:url(../fonts/Proxima-Nova-Extrabold.otf);}
+body{background-color:#F1F1F1;margin:0px;padding:0px;}
+.header{background-color: #D5D5D5;width: 100%;height: 75px;overflow:hidden;}
+.logoleftside{background-color: #101010;width: 300px;
+	height: 76px;
+     float: left;
+   }
+     .logorightside{
+       width: 50px;
+       height: 85.5px;
+       float: left;
+       background-color: #101010;
+       -webkit-transform: perspective(39px) rotateX(-15.5deg);
+           -o-transform: perspective(39px) rotateX(-15.5deg);
+           -moz-transform: perspective(39px) rotateX(-15.5deg);
+           -webkit-transform-origin: 0% 50%;
+           -moz-transform-origin: 0% 50%;
+           -o-transform-origin: 0% 50%;
+           transform-origin: 0% 50%;
+     }
+.logoleftside img {
+  margin-top: 10px;
+  float: right;
+}
+.detay1{
+background-color: #494949;
+float: left;
+height: 75px;
+width: 15px;
+-webkit-transform: skew(-20deg);
+   -moz-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+}
+.detay2{
+background-color: #989898;
+float: left;
+height: 75px;
+width: 15px;
+-webkit-transform: skew(-20deg);
+   -moz-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+}
+.navbar{
+  overflow:hidden;
+  float: left;
+  height: 100%;
+  width: 670px;
+  margin-left: 15%;
+}
+.navbar li{display:inline;}
+.navbar li a{text-decoration:none;font-family:bebaskai;font-size:22px;margin-right:40px;color:black;padding:15px 20px;}
+.navbar ul{list-style-type:none;margin:0;padding:0;margin-top: 10px;}
+.searchbar{
+  width: 300px;
+  height: 30px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+.searchbar input {
+  width: 250px;
+  border-radius: 8px;
+  border: 0px;
+  padding-top:7px;
+  padding-bottom: 7px;
+  background-color: #B4B4B4;
+  font-family: proximalight;
+  padding-left: 25px;
+  background-image: url("../images/searchicon.png");
+  background-position: 7px 5px;
+  background-repeat: no-repeat;
+}
+input::-webkit-input-placeholder {
+  padding-top: 10px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-family: bebaskai;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.onecikan{float: left;
+width: 200px;
+height: 40px;
+background-color: #101010;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.onecikan p{
+  color: white;
+  font-family: bebaskai;
+  font-size: 20px;
+  margin-top: 7.5px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+.container{
+  width: 1020px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+.haberbox {
+  margin-top: 50px;
+  position: relative;
+  float: left;
+  width: 325px;
+  height: 230px;
+  margin-left: 4px;
+  margin-right: 11px;
+}
+.haberisim{
+  width: 100%;
+  height: 32px;
+}
+.haberisim h1{
+text-align: center;
+width: 100%;
+font-family: bebaskai;
+font-size: 20pt;
+letter-spacing: 1px;
+margin: 0px;
+}
+.haberlogo {
+  border: 1px solid black;
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  margin-top: 10px;
+}
+.haberlogo img {
+  width: 300px;
+  height: 150px;
+}
+.haberlink{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: auto;
+  margin-top: 5px;
+  width: 100px;
+  height: 20px;
+  background-color: black;
+}
+.haberlink a{
+  text-decoration: none;
+  font-family: bebaskai;
+  color: white;
+  margin-left: 12.5px;
+  margin-top: 1px;
+}
+.habercontainer{
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+}
+.haberbaslik h1{
+  text-align: center;
+  margin: 0px;
+  margin-top: 50px;
+  font-family: bebaskai;
+}
+.haberbuyukresim {
+  width: 800px;
+  height: 300px;
+  margin: auto;
+  margin-top: 25px;
+}
+.haberbuyukresim img {
+  width: 800px;
+  height: 300px;
+}
+.haberdetaylar {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  font-family: Arial;
+  font-size: 15px;
+}
+.habergecis{
+  width: 600px;
+  height: 100px;
+  margin: auto;
+}
+.oncekihaber{
+  float: left;
+}
+.sonrakihaber{
+  float: right;
+}
+@media only screen and (max-width:1780px){
+.navbar{margin-left: 5%;width: 500px;}
+}
+@media only screen and (max-width:1580px){
+.navbar{margin-left: 1%;}
+.navbar li a {margin-right: 0px;}
+}

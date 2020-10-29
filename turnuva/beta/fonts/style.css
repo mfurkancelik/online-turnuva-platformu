@@ -1,0 +1,174 @@
+@font-face{font-family:bebaskai;src:url(../fonts/BebasKai.otf);}
+@font-face{font-family:proximasemibold;src:url(../fonts/Proxima-Nova-Semibold.ttf);}
+@font-face{font-family:proximalight;src:url(../fonts/ProximaNova-Light.otf);}
+@font-face{font-family:proximaregular;src:url(../fonts/proxima-nova-regular.ttf);}
+@font-face{font-family:proximanovabold;src:url(../fonts/Proxima-Nova-Bold.otf);}
+@font-face{font-family:proximaextrabold;src:url(../fonts/Proxima-Nova-Extrabold.otf);}
+body{background-color:#272727;margin:0px;padding:0px;}
+.header{width:100%;height:70px;background-color:#101010;}
+.subbar{width:100%;height:30px;background-color:white;}
+#logo{float:left;margin-top:8px;margin-left:462px;}
+#oyunlogo{float:left;margin-top:2px;margin-left:458px;}
+.navbar{float:left;margin-top:10px;margin-left:50px;}
+.navbar li{display:inline;}
+.navbar li a{text-decoration:none;font-family:bebaskai;font-size:22px;margin-right:40px;color:white;padding:15px 20px;}
+.navbar ul{list-style-type:none;margin:0;padding:0;}
+.container{width:100%;height:940px;margin:0px;padding:0px;background-image:url("../images/csgoback.png");}
+.anaturnuva{float:left;margin-left:50px;}
+.anaturnuva p{float:left;border-bottom:2px solid black;margin-top:3px;margin-bottom:0px;font-size:20px;font-family:proximasemibold;padding:0px;}
+.anaturnuva img{float:left;margin-top:8px;margin-left:15px;}
+.uyepanel img{width:50px;height:50px;float:left;margin-top:10px;}
+.loginpanel{float:left;margin-top:28px;margin-left:340px;}
+.loginpanel input{font-family:bebaskai;width:100px;text-align:center;}
+.loginpanel input.placeholder{text-align:center;}
+.loginpanel #username , #password{border:1px;border-radius:2px;margin-right:10px;}
+.girisbuton{border:0px;background-color:white;font-family:bebaskai;}
+.girisbuton:hover{color:white;background-color:black;font-family:bebaskai;}
+.kayitolbut{margin-left:8px;border:0px;background-color:white;font-family:bebaskai;}
+.kayitolbut:hover{color:white;background-color:black;font-family:bebaskai;}
+.uyepanel{float:left;margin-left:300px;}
+.uyepanel p{color:white;font-family:bebaskai;font-size:30px;margin:0px;}
+.uyepanel a{text-decoration:none;font-family:bebaskai;font-size:30px;color:white;margin-left:15px;margin-top:20px;float:left;}
+.nickname{margin-top:20px;margin-right:20px;float:left;}
+.avatar{margin-top:10px;float:left;}
+.mainbox{border-left:1px solid white;border-right:1px solid white;background-color:#101010;width:940px;height:100%;margin:auto;}
+.ustbar{margin-top:20px;float:left;width:100%;height:50px;}
+.ustbar li{float:left;display:inline;color:white;margin-right:40px;margin-left:70px;font-family:bebaskai;font-size:20px;}
+.turnuvabox{float:left;width:100%;height:50px;background-color:white;margin-top:15px;}
+.mesajwrap{float:left;width:100%;height:20px;background-color:white;margin-top:15px;}
+.turnuvafoto{float:left;margin-top:11px;margin-left:55px;width:57px;}
+.turnuvaisim{float:left;margin-left:90px;width:100px;}
+.turnuvaisim h1{float:left;font-family:bebaskai;font-size:20px;width:150px;}
+.turnuvatarih{float:left;margin-left:50px;}
+.turnuvatarih p{float:left;font-family:bebaskai;font-size:20px;width:140px;margin-top:13px;padding:0px;}
+.turslot{float:left;margin-left:35px;}
+.turslot p{float:left;font-family:bebaskai;font-size:20px;margin-top:13px;padding:0px;width:50px;}
+.turodul{float:left;margin-left:90px;width:50px;}
+.turodul p{float:left;font-family:bebaskai;font-size:20px;margin-top:13px;padding:0px;}
+.turnuvadetay{float:left;margin-top:18px;margin-left:110px;}
+.kayitol{float:right;margin-left:10px;margin-top:1px;}
+.loginpanel li a{text-decoration:none;border-right:3px solid white;border-left:3px solid white;background-color:white;font-family:bebaskai;color:black;font-size:15px;}
+.loginpanel li a:hover{border-right:3px solid black;border-left:3px solid black;background-color:black;font-family:bebaskai;color:white;}
+.titles{padding-top:10px;margin-left:400px;margin-bottom:50px;width:190px;height:30px;}
+.titles label{font-family:bebaskai;color:#AA1616;font-size:20px;}
+.titles p{width:190px;font-family:bebaskai;color:white;font-size:20px;}
+.turnuvabutton{border:0px;background-color:white;color:black;font-family:bebaskai;font-size:20px;}
+.leftbar{float:left;width:250px;height:100%;background-color:#181818;}
+.leftbar label{float:left;font-family:bebaskai;font-size:25px;margin-left:10px;margin-top:8px;color:#A9A9A9;}
+.profilpanel{float:right;background-color:#101010;height:640px;width:690px;}
+.kulpanellogo{margin-top:15px;margin-left:25px;float:left;}
+.leftnavbar{float:left;margin-top:25px;}
+.leftnavbar ul{list-style-type:none;margin:0;padding:0;}
+.leftnavbar li a{text-decoration:none;font-family:bebaskai;font-size:25px;color:white;padding-left:58px;padding-right:58px;padding-top:10px;padding-bottom:10px;}
+.leftnavbar li a:hover{background-color:#282828;}
+.leftnavbar li{margin-bottom:25px;}
+.profilbox{width:585px;height:430px;float:left;margin-left:50px;margin-top:70px;background-color:#282828;border-radius:8px;}
+.profilbox img{float:left;width:150px;height:150px;margin-left:225px;margin-top:15px;margin-bottom:15px;}
+.mesajbox{width:585px;height:585px;float:left;margin-left:50px;margin-top:30px;background-color:#282828;border-radius:8px;}
+.mesajbox input{margin-left:20px;border-radius:2px;font-size:15px;color:white;font-family:proximaregular;border:0px;background-color:#363636;width:550px;margin-bottom:8px;}
+.profilbox input{margin-left:20px;border-radius:2px;font-size:15px;color:white;font-family:proximaregular;border:0px;background-color:#363636;width:550px;margin-bottom:8px;}
+.profilbox input::placeholder{color:white;}
+#takimbox input::placeholder{color:white;}
+.profilbox label{color:white;font-family:bebaskai;margin-left:20px;}
+.guncellebuton{width:550px;border:0px;background-color:white;color:black;margin-top:5px;margin-right:15px;float:right;margin-bottom:10px;}
+#takimbox{width:585px;height:460px;float:left;margin-left:55px;margin-top:12px;background-color:#282828;border-radius:8px;}
+#takimbox img{width:100px;height:100px;float:left;margin-left:225px;}
+.takimprebox{width:585px;height:160px;float:left;margin-left:30px;margin-top:15px;margin-bottom: 10px;background-color:#282828;border-radius:8px;}
+.takimprebox input{margin-top:5px;margin-left:20px;border-radius:2px;font-size:15px;color:white;font-family:proximalight;border:0px;background-color:#363636;width:550px;margin-bottom:10px;}
+.takimprebox label{color:white;font-family:bebaskai;margin-left:20px;}
+#takimbox input{margin-top:5px;margin-left:20px;border-radius:2px;font-size:15px;color:white;font-family:proximalight;border:0px;background-color:#363636;width:550px;margin-bottom:10px;}
+#takimbox label{color:white;font-family:bebaskai;margin-left:20px;}
+.takimlartitle{margin-left:20px;background-color:#363636;width:550px;height:30px;border-radius:8px;margin-bottom:10px;margin-top:10px;}
+.takimlartitle h1{color:white;font-family:bebaskai;font-size:25px;padding-left:200px;margin:0px;}
+.mesajtitle{float:left;width:100%;height:50px;}
+.mesajtitle li{float:left;display:inline;color:white;margin-top:10px;margin-right:80px;margin-left:30px;font-family:bebaskai;font-size:15px;}
+.newmessage a{text-decoration:none;float:right;margin-top:20px;color:white;font-family:bebaskai;font-size:15px;margin-right:40px;}
+.gonderen{width:75px;float:left;margin-left:35px;}
+.tarih{width:105px;float:left;margin-left:50px;}
+.konu{width:75px;float:left;margin-left:65px;margin-right:40px;}
+.mesaj{width:50px;float:left;margin-left:20px;}
+.mesajdetay{float:left;margin-left:35px;margin-right:5px;margin-top:2.33px;}
+.gonderen p{margin:0px;font-family:bebaskai;font-size:15px;}
+.mesaj p{margin:0px;font-family:bebaskai;font-size:15px;width:75px;}
+.konu p{margin:0px;font-family:bebaskai;font-size:15px;}
+.tarih p{margin:0px;font-family:bebaskai;font-size:15px;}
+.yenimesajbox{width:585px;height:400px;float:left;margin-left:50px;margin-top:30px;background-color:#282828;border-radius:8px;}
+.yenimesajbox input{margin-top:5px;margin-left:20px;border-radius:2px;padding-top:5px;padding-bottom:5px;font-size:15px;color:white;font-family:proximalight;border:0px;background-color:#363636;width:550px;margin-bottom:10px;}
+.yenimesajbox textarea{margin-top:5px;margin-left:20px;border-radius:2px;padding-top:5px;padding-bottom:5px;font-size:15px;color:white;font-family:proximalight;border:0px;background-color:#363636;width:550px;margin-bottom:10px;height:200px;resize:none;}
+.mesajokubox{width:585px;height:585px;float:left;margin-left:50px;margin-top:30px;background-color:#282828;border-radius:8px;}
+.mesajokubox label{font-size:15px;color:white;font-family:proximalight;margin-left:30px;margin-top:30px;float:left;}
+.footer{margin:auto;width:940px;height:55px;background-color:#272727;}
+.footerlogo{float:left;width:380px;margin-top:10px;}
+.footerlogo img{width:100px;height:35px;margin-bottom:10px;float:left;margin-left:75px;}
+.footerlogo p{font-size:14px;float:left;color:white;font-family:proximaregular;width:400px;margin-top:0px;margin-bottom:0px;}
+#footext2{margin:0px;color:white;font-family:proximalight;}
+.footernavbar{width:150px;height:120px;float:left;margin-top:10px;margin-left:1.33%;}
+.footernavbar a{display:block;color:white;font-family:proximalight;text-decoration:none;font-size:15px;}
+.footernavbar h1{color:white;font-family:bebaskai;text-decoration:none;font-size:20px;margin-top: 0px;}
+.tab{border-top-left-radius:8px;border-top-right-radius:8px;text-align:Center;overflow:hidden;background-color:#F1F1F1;padding-left:165px;padding-right:165px;margin-left:10px;margin-top:20px;float:left;}
+.tab2{text-align:Center;overflow:hidden;background-color:#181818;float:left;padding-left:175px;width:515px;}
+.tab2 button{background-color:inherit;float:left;border:none;outline:none;cursor:pointer;padding:10px 12px;transition:0.3s;font-size:17px;font-family:bebaskai;color:white;}
+.tab2 button:hover{background-color:#A51715;color:white;}
+.tab2 button.active{background-color:#A51715;color:white;}
+.tab button{background-color:inherit;float:left;border:none;outline:none;cursor:pointer;padding:20px 16px;transition:0.3s;font-size:17px;font-family:proximaregular;}
+.tab button:hover{background-color:#A51715;color:white;}
+.tab button.active{background-color:#A51715;color:white;}
+.tablinks{margin-right:25px;}
+.turnuvaheader{float:left;width:920px;margin-top:10px;margin-left:10px;height:100px;border-radius:8px;border-top:15px solid #18D06E;background-color:#F1F1F1;}
+.turoyunlogo{float:left;margin-top:30px;margin-left:40px;}
+.turoyunlogo img{}
+.turoyunisim{float:left;margin-left:20px;margin-top:35px;}
+.turoyunisim p{margin-top:0px;margin-bottom:2px;font-family:proximanovabold;}
+.zamanwrap{width:100%;height:125px;margin-top:25px;}
+.zamanbox{float:left;width:275px;height:70px;border:5px solid white;margin-right:10px;margin-left:10px;}
+.zamanbox img{float:left;margin-top:15.5px;margin-left:15px;}
+.zamanbox h1{font-family:proximanovabold;color:white;font-size:14px;float:left;margin-top:16px;margin-left:20px;margin-bottom:0px;width:135px;}
+.zamanbox p{font-family:proximaregular;color:white;font-size:12px;margin-top:0px;float:left;margin-left:20px;}
+.buttonkatil{text-decoration:none;background-color:black;color:white;padding:16px 16px;font-family:bebaskai;margin-top:30px;float:right;margin-right:25px;border:0px;}
+.katilmasyon{margin:0px;float:left;font-family:bebaskai;margin-left:150px;margin-top:40px;font-size:20px;}
+.aciklamawrap{width:100%;height:25px;}
+.takimlarwrap{float:left;width:170px;height:300px;border:1px solid white;margin-top:15px;margin-left:20px;margin-right:37.8px;border-radius:8px;}
+.takimlarwrap label{float:left;font-family:proximaregular;font-size:18px;color:white;width:100%;margin-left:12px;margin-top:5px;}
+.takimlarwrap img{margin-left:10px;margin-top:5px;margin-bottom:5px;width:150px;height:150px;}
+.takimlarwrap p{width:170px;margin-left:12px;color:white;font-family:proximaregular;margin-top:0px;margin-bottom:0px;}
+.aciklamawrap h1{margin:0px;color:white;font-family:proximanovabold;font-size:18px;margin-left:10px;float:left;}
+.aciklamawrap p{margin:0px;color:white;font-family:proximaregular;font-size:18px;float:left;margin-top:1px;margin-left:5px;}
+.oyunculist {height: 280px;}
+.oyunculist p{width: 100%;height: 30px; margin-bottom:5px;margin-top: 0px;font-family:proximaregular;color: white;font-size:22px;float:left;margin-left: 25px;}
+.turchar{margin-top: 15px;}
+#takimlogo{display:none;width:580px;height:350px;background-color:#1D1D1B;border-radius:8px;margin-left:48px;margin-top:50px;}
+#takimlogo img{width:250px;height:250px;float:left;margin-left:175px;margin-top:15px;}
+#takimlogo input{margin-top:5px;margin-left:20px;border-radius:2px;font-size:15px;color:white;font-family:proximalight;border:0px;background-color:#363636;width:550px;margin-bottom:10px;}
+#genel{float:left;margin-left:10px;width:97.8%;height:600px;background-color:#1D1D1B;border-bottom-left-radius:8px;border-bottom-right-radius:8px;}
+#kurallar{float:left;margin-left:10px;width:97.8%;height:600px;background-color:#1D1D1B;border-bottom-left-radius:8px;border-bottom-right-radius:8px;display:none;}
+#kurallar h3{color:white;font-family:proximaregular;font-size:20px;text-align:center;}
+#kurallar p{color:white;font-family:proximalight;text-align:center;}
+#oyuncular{float:left;margin-left:10px;width:97.8%;height:725px;background-color:#1D1D1B;border-bottom-left-radius:8px;border-bottom-right-radius:8px;display:none;}
+#chart{float:left;margin-left: 10px;width: 97.8%;height: 600px;background-color:#1D1D1B;border-bottom-left-radius:8px;border-bottom-right-radius:8px;display:none;}
+@media only screen and (max-width:1540px){#logo{margin-left:15%;}
+#oyunlogo{margin-left:15%;}
+.navbar{margin-left:30px;}
+.navbar li a{margin-right:35px;}
+.uyepanel{margin-left:20px;}
+.loginpanel{margin-left:130px;}
+.footerlogo{margin-left:14.5%;}
+}
+@media only screen and (max-width:1700px){#logo{margin-left:22.33%;}
+#oyunlogo{margin-left:22.33%;}
+.footerlogo{margin-left:19.5%;}
+.loginpanel{margin-left:350px;}
+}
+@media only screen and (max-width:1648px){#logo{margin-left:20.43%;}
+#oyunlogo{margin-left:20.43%;}
+.loginpanel input{width:85px;}
+.loginpanel{margin-left:355px;}
+}
+@media only screen and (max-width:1366px){#logo{margin-left:15.33%;}
+#oyunlogo{margin-left:15.33%;}
+.footerlogo{margin-left:14.5%;}
+}
+@media only screen and (max-width:1200px){#logo{margin-left:4%;}
+#oyunlogo{margin-left:4%;}
+.loginpanel{margin-left:85px;}
+.footerlogo{margin-left:4.5%;}
+}
