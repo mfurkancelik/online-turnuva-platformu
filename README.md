@@ -1,4 +1,4 @@
-# Online Turnuca Platformu
+# Online Turnuva Platformu
 ## Genel Bilgi
 >Projede aynı oyunu oynayan kullanıcıları bir araya getirmek, kullanıcıların oyun bilgisini karşılaştırmalarını sağlamak ve kullanıcılar arasında turnuva düzenlemek için tasarlanmıştır.
 ## Kullanılan Teknolojiler
